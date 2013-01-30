@@ -11,5 +11,11 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)buttonMiddle:(id)sender;
+- (IBAction)buttonLeft:(id)sender;
+- (IBAction)buttonRight:(id)sender;
+@property (weak) IBOutlet NSTextField *myLabel;
+- (IBAction)buttonSpotlight:(id)sender;
+- (IBAction)buttonDown:(id)sender;
 
 @end
